@@ -9,10 +9,11 @@ const dfv = require("dfv");
 const task = dfv.dfvTime.dailyEvent(3, 0, e => {
     let date = new Date();
     if (date.getDate() == 1) {
-        sh.cd("/usr/local/blog/");
+        sh.exec("pm2 stop app");
+        sh.exec("certbot renew");
+        sh.exec("pm2 start app");
+        //sh.cd("/usr/local/blog/");
     }
-
-
 });
 
 
