@@ -1,0 +1,26 @@
+{
+  "name": "takse",
+  "version": "0.1.0",
+  "description": "cron job",
+  "main": "task.js",
+  "author": {
+    "name": "rxaa",
+    "email": "zyxdde@gmail.com"
+  },
+  "dependencies": {
+    "@types/shelljs": "^0.8.5",
+    "dfv": "^0.5.1",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.3"
+  },
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rxaa/nodeTask.git"
+  },
+  "license": "MIT"
+}
